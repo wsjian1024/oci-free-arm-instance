@@ -3,7 +3,7 @@ name: OCI A1 Scheduler
 
 on:
   schedule:
-    - cron: '3,13,23,33,43,53 * * * *'
+    - cron: '*/6 * * * *'
   workflow_dispatch:
     inputs:
       mode:
